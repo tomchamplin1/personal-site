@@ -3,7 +3,7 @@ import headshot from "../img/headshot.png";
 
 export default function HomeAbout() {
   return (
-    <div class="mx-80 align-left px-12 text-zinc-400 pt-12 pb-6 grid md:grid-cols-2">
+    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-400 pt-12 pb-6 grid xs:grid-cols-1 lg:grid-cols-2 ">
       <div className="pr-5">
         <h1 className="text-3xl font-bold text-zinc-200">
           Hey! I'm Tom Champlin.
@@ -25,16 +25,16 @@ export default function HomeAbout() {
           just chat.
         </p>
       </div>
-      <div className="pl-5">
-        <div class="hidden md:block lg:block w-full text-center lg:text-right lg:text-left self-end mx-auto my-auto">
+      <div className="lg:pl-5">
+        <div class="text-center lg:text-right lg:text-left self-end mx-auto my-auto">
           <img
-            class="w-full z-50 inline-block rounded-xl"
+            class="w-1/3 lg:w-full mt-8 lg:mt-0 z-50 rounded-xl"
             src={headshot}
             alt="Tom Champlin"
           />
         </div>
         <div className="pt-8">
-          <p className="flex">
+          <p className="flex my-auto hover:text-zinc-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -53,7 +53,7 @@ export default function HomeAbout() {
               @champlintom
             </a>
           </p>
-          <p className="mt-3 flex">
+          <p className="mt-3 flex my-auto hover:text-zinc-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -72,7 +72,7 @@ export default function HomeAbout() {
               @tomchamplin1
             </a>
           </p>
-          <p className="mt-3 flex my-auto">
+          <p className="mt-3 flex my-auto hover:text-zinc-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -91,26 +91,27 @@ export default function HomeAbout() {
               @tom-champlin
             </a>
           </p>
+          <hr className="mt-5"></hr>
+          <p className="mt-3 flex my-auto hover:text-zinc-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              class="bi bi-envelope-fill mr-2"
+              viewBox="0 0 16 16"
+            >
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=tomchamplin1@gmail.com"
+              className="my-auto"
+              target="_blank"
+            >
+              tomchamplin1@gmail.com
+            </a>
+          </p>
         </div>
-        <hr className="mt-5"></hr>
-        <p className="mt-3 flex my-auto">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="currentColor"
-            class="bi bi-envelope-fill mr-2"
-            viewBox="0 0 16 16"
-          >
-            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-          </svg>
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=tomchamplin1@gmail.com"
-            className="my-auto"
-          >
-            tomchamplin1@gmail.com
-          </a>
-        </p>
       </div>
     </div>
   );

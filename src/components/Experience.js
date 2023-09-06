@@ -3,7 +3,7 @@ import headshot from "../img/headshot.png";
 
 export default function HomeAbout() {
   return (
-    <div class="mx-80 align-left px-12 text-zinc-400 py-6">
+    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-400 py-6">
       <div className="pt-8">
         <h1 className="text-2xl font-bold text-zinc-200">Experience</h1>
         <p className="mt-3 text-xl">
