@@ -1,6 +1,6 @@
 import { React } from "react";
 import "../index.css";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import HomeAbout from "../components/HomeAbout";
 import Experience from "../components/Experience";
 
@@ -11,7 +11,7 @@ import Experience from "../components/Experience";
 export default function Home() {
   return (
     <div className="bg-black">
-      <Navbar />
+      {/* <Navbar /> */}
       <HomeAbout />
       <Experience />
       {/* <Showcase />
