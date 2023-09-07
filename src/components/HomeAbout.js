@@ -3,7 +3,7 @@ import headshot from "../img/headshot.png";
 
 export default function HomeAbout() {
   return (
-    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-400 pt-12 pb-6 grid xs:grid-cols-1 lg:grid-cols-2 ">
+    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-400 pt-12 pb-4 grid xs:grid-cols-1 lg:grid-cols-2 ">
       <div className="pr-5">
         <h1 className="text-3xl font-bold text-zinc-200">
           Hey! I'm Tom Champlin.
@@ -33,7 +33,7 @@ export default function HomeAbout() {
             alt="Tom Champlin"
           />
         </div>
-        <div className="pt-8">
+        <div className="mt-8 p-5 border rounded-xl border-zinc-800">
           <p className="flex my-auto hover:text-zinc-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ export default function HomeAbout() {
               @tom-champlin
             </a>
           </p>
-          <hr className="mt-5"></hr>
+          <hr class="mt-3 h-px bg-zinc-700 border-0" />
           <p className="mt-3 flex my-auto hover:text-zinc-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
