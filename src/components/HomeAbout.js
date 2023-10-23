@@ -3,8 +3,8 @@ import headshot from "../img/headshot.png";
 
 export default function HomeAbout() {
   return (
-    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-400 pb-4 pt-12">
-      <div className="pr-5">
+    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-200 pb-4 pt-12">
+      <div className="">
         <div class="text-center lg:text-right lg:text-left self-end mx-auto my-auto flex">
           <img
             class="w-24 lg:mt-0 z-50 rounded-full"
