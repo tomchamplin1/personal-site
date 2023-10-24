@@ -26,7 +26,7 @@ export default function HomeAbout() {
               >
                 TokenTax
               </a>
-              <p>&nbsp;| Jul 2022 - Present</p>
+              <p>&nbsp;| 2022 - Present</p>
             </div>
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function HomeAbout() {
               >
                 Momence
               </a>
-              <p>&nbsp;| Nov 2021 - Mar 2022</p>
+              <p>&nbsp;| 2021 - 2022</p>
             </div>
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function HomeAbout() {
               >
                 Infor
               </a>
-              <p>&nbsp;| Jun 2019 - Nov 2021</p>
+              <p>&nbsp;| 2019 - 2021</p>
             </div>
           </p>
         </div>

@@ -7,16 +7,16 @@ export default function HomeAbout() {
       <div className="">
         <div class="text-center lg:text-right lg:text-left self-end mx-auto my-auto flex">
           <img
-            class="w-24 lg:mt-0 z-50 rounded-full"
+            class="w-20 lg:mt-0 z-50 rounded-full"
             src={headshot}
             alt="Tom Champlin"
           />
-          <h1 className="text-2xl xl:text-4xl font-bold text-zinc-200 my-auto ml-5">
+          <h1 className="text-3xl xl:text-4xl font-bold text-zinc-200 my-auto ml-5">
             Hey! I'm Tom Champlin.
           </h1>
         </div>
-        <p className="text-lg pt-5">
-          I'm a sales rep turned full-stack developer.
+        <p className="text-lg pt-12">
+          I'm a sales rep turned full-stack engineer.
         </p>
         <p className="text-lg pt-3">
           I currently work as a Software Engineer at TokenTax, helping to
