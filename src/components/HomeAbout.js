@@ -3,15 +3,15 @@ import headshot from "../img/headshot.png";
 
 export default function HomeAbout() {
   return (
-    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-200 pb-4 pt-12">
+    <div class="mx-5 lg:mx-80 lg:px-12 align-left text-zinc-200 pb-4 pt-12">
       <div className="">
         <div class="text-center lg:text-right lg:text-left self-end mx-auto my-auto flex">
           <img
-            class="w-20 lg:mt-0 z-50 rounded-full"
+            class="w-14 h-14 lg:h-20 lg:w-20 lg:mt-0 z-50 rounded-full"
             src={headshot}
             alt="Tom Champlin"
           />
-          <h1 className="text-3xl xl:text-4xl font-bold text-zinc-200 my-auto ml-5">
+          <h1 className="text-2xl xl:text-4xl font-bold text-zinc-200 my-auto ml-3 xl:ml-5">
             Hey! I'm Tom Champlin.
           </h1>
         </div>

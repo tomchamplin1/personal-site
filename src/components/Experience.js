@@ -5,7 +5,7 @@ import infor from "../img/infor-logo.png";
 
 export default function HomeAbout() {
   return (
-    <div class="lg:mx-40 xl:mx-80 align-left px-12 text-zinc-200 pt-4 pb-12">
+    <div class="mx-5 lg:mx-80 lg:px-12 align-left text-zinc-200 pt-4 pb-12">
       <div className="p-5 border rounded-xl border-zinc-600">
         <h1 className="text-2xl font-bold text-zinc-200">Experience</h1>
         <hr class="h-px my-1 bg-zinc-700 border-0" />
