@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="p-5 border rounded-xl border-zinc-600">
         <h1 className="text-2xl font-bold text-zinc-200">Projects</h1>
         <hr class="h-px mt-1 mb-5 bg-zinc-700 border-0" />
-        <div className="grid grid-cols-3 gap-2.5">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-2.5">
           <div className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between">
             <div>
               <p className="text-zinc-200 text-xl font-semibold">SiteCheer</p>
