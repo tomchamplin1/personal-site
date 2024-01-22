@@ -2,6 +2,7 @@ import { React } from "react";
 import ttlogo from "../img/tt-logo.png";
 import momence from "../img/momence-logo.png";
 import infor from "../img/infor-logo.png";
+import epicor from "../img/epicor-logo.png";
 
 export default function HomeAbout() {
   return (
@@ -9,6 +10,27 @@ export default function HomeAbout() {
       <div className="p-5 border rounded-xl border-zinc-600">
         <h1 className="text-2xl font-bold text-zinc-200">Experience</h1>
         <hr class="h-px my-1 bg-zinc-700 border-0" />
+        <div className="flex mt-3">
+          <img
+            class="w-8 h-8 z-50 rounded-full my-auto mr-2"
+            src={epicor}
+            alt="TokenTax Logo"
+          />
+          <p className="text-xl">
+            <p className="text-zinc-200">Implementation Engineer</p>
+            <div className="flex text-base">
+              <a
+                target="_blank"
+                href="https://tokentax.co/"
+                className="my-auto"
+                rel="noreferrer"
+              >
+                Epicor
+              </a>
+              <p>&nbsp;| 2023 - Present</p>
+            </div>
+          </p>
+        </div>
         <div className="flex mt-3">
           <img
             class="w-8 h-8 z-50 rounded-full my-auto mr-2"
@@ -26,7 +48,7 @@ export default function HomeAbout() {
               >
                 TokenTax
               </a>
-              <p>&nbsp;| 2022 - Present</p>
+              <p>&nbsp;| 2022 - 2023</p>
             </div>
           </p>
         </div>

@@ -19,10 +19,18 @@ export default function HomeAbout() {
           I'm a sales rep turned full-stack engineer.
         </p>
         <p className="text-lg pt-3">
-          I currently work as a Software Engineer at TokenTax, helping to
-          simplify crypto taxes for the masses. I'm also working on{" "}
-          <a href="www.sitecheer.com" className="font-bold">
+          I currently work as an Implementation Engineer at Epicor. I'm also
+          working on{" "}
+          <a href="https://sitecheer.com" className="font-bold">
             SiteCheer
+          </a>
+          ,{" "}
+          <a href="https://nowadayz.vercel.app/" className="font-bold">
+            Nowadayz
+          </a>
+          ,{" "}
+          <a href="https://www.cleanandhonest.com/" className="font-bold">
+            Clean & Honest
           </a>
           , and other projects.
         </p>
