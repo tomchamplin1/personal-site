@@ -14,7 +14,7 @@ export default function HomeAbout() {
           <img
             class="w-8 h-8 z-50 rounded-full my-auto mr-2"
             src={epicor}
-            alt="TokenTax Logo"
+            alt="Epicor Logo"
           />
           <p className="text-xl">
             <p className="text-zinc-200">Implementation Engineer</p>
