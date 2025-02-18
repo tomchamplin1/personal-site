@@ -21,7 +21,7 @@ export default function HomeAbout() {
             <div className="flex text-base">
               <a
                 target="_blank"
-                href="https://tokentax.co/"
+                href="https://www.epicor.com/"
                 className="my-auto"
                 rel="noreferrer"
               >

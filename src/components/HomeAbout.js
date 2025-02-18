@@ -5,7 +5,7 @@ export default function HomeAbout() {
   return (
     <div class="mx-5 lg:mx-80 lg:px-12 align-left text-zinc-200 pb-4 pt-12">
       <div className="">
-        <div class="text-center lg:text-right lg:text-left self-end mx-auto my-auto flex">
+        <div class="text-center lg:text-left self-end mx-auto my-auto flex">
           <img
             class="w-14 h-14 lg:h-20 lg:w-20 lg:mt-0 z-50 rounded-full"
             src={headshot}
@@ -21,16 +21,16 @@ export default function HomeAbout() {
         <p className="text-lg pt-3">
           I currently work as an Implementation Engineer at Epicor. I'm also
           working on{" "}
-          <a href="https://sitecheer.com" className="font-bold">
-            SiteCheer
-          </a>
-          ,{" "}
-          <a href="https://nowadayz.vercel.app/" className="font-bold">
-            Nowadayz
+          <a href="https://www.penpalai.xyz/" className="font-bold">
+            PenpalAI
           </a>
           ,{" "}
           <a href="https://www.cleanandhonest.com/" className="font-bold">
             Clean & Honest
+          </a>
+          ,{" "}
+          <a href="https://sitecheer.com" className="font-bold">
+            SiteCheer
           </a>
           , and other projects.
         </p>
@@ -46,7 +46,7 @@ export default function HomeAbout() {
             <a
               href="https://twitter.com/ChamplinTom"
               target="_blank"
-              className="flex my-auto hover:text-zinc-300 my-auto"
+              className="flex my-auto hover:text-zinc-300"
               rel="noreferrer"
             >
               <svg

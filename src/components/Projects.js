@@ -9,35 +9,16 @@ export default function Projects() {
         <hr class="h-px mt-1 mb-5 bg-zinc-700 border-0" />
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-2.5">
           <div className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between">
-            <div>
-              <p className="text-zinc-200 text-xl font-semibold">SiteCheer</p>
-              <hr class="h-px mt-1 mb-1 bg-zinc-700 border-0" />
-              <p className="text-zinc-200 text-sm">
-                SiteCheer is a web dev agency built on a low
-                monthly-subscription model.
-              </p>
-            </div>
-            <div>
-              <button>
-                <a href="https://sitecheer.com">
-                  <MoveRight />
-                </a>
-              </button>
-            </div>
-          </div>
-          <div className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between">
             <div className="mb-5">
-              <p className="text-zinc-200 text-xl font-semibold">Nowadayz</p>
+              <p className="text-zinc-200 text-xl font-semibold">PenpalAI</p>
               <hr class="h-px mt-1 mb-1 bg-zinc-700 border-0" />
               <p className="text-zinc-200 text-sm">
-                Social media for people who hate social media. Check in on your
-                friends and see what they are working on, where they are, what
-                they have been thinking about, and more.
+                Unlock your imagination with AI-powered writing prompts.
               </p>
             </div>
             <div>
               <button>
-                <a href="https://nowadayz.vercel.app/">
+                <a href="https://www.penpalai.xyz/">
                   <MoveRight />
                 </a>
               </button>
@@ -56,6 +37,22 @@ export default function Projects() {
             <div>
               <button>
                 <a href="https://www.cleanandhonest.com/">
+                  <MoveRight />
+                </a>
+              </button>
+            </div>
+          </div>
+          <div className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between">
+            <div>
+              <p className="text-zinc-200 text-xl font-semibold">SiteCheer</p>
+              <hr class="h-px mt-1 mb-1 bg-zinc-700 border-0" />
+              <p className="text-zinc-200 text-sm">
+                A web dev agency built on a low monthly-subscription model.
+              </p>
+            </div>
+            <div>
+              <button>
+                <a href="https://sitecheer.com">
                   <MoveRight />
                 </a>
               </button>
