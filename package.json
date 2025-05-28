@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,11 +11,9 @@
     "lucide-react": "^0.314.0",
     "next": "^15.3.2",
     "next-themes": "^0.4.6",
-    "next.js": "^1.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^6.30.1",
-    "react-scripts": "5.0.1",
     "tailwind-merge": "^3.3.0",
     "web-vitals": "^2.1.4"
   },
