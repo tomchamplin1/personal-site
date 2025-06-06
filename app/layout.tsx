@@ -1,9 +1,9 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/components/Navbar";
 import { Inter } from "next/font/google";
 import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
 
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/app/components/theme-provider";
 
 function cn(...inputs) {
   return twMerge(clsx(inputs));

@@ -2,9 +2,9 @@
 
 import React from "react";
 import "./index.css";
-import HomeAbout from "@/components/HomeAbout";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
+import HomeAbout from "@/app/components/HomeAbout";
+import Experience from "@/app/components/Experience";
+import Projects from "@/app/components/Projects";
 
 export default function Index() {
   return (
