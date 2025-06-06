@@ -18,7 +18,7 @@ export default function HomeAbout() {
             alt="Epicor Logo"
           />
           <div className="text-xl">
-            <p className="text-zinc-200">Implementation Engineer</p>
+            <p className="text-zinc-200">Solutions Developer</p>
             <div className="flex text-base">
               <a
                 target="_blank"
