@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
 
-import { ThemeProvider } from "@/app/components/theme-provider";
+import { ThemeProvider } from "@/components/theme-provider";
 
 function cn(...inputs) {
   return twMerge(clsx(inputs));
