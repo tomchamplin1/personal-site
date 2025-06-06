@@ -2,10 +2,10 @@
 
 import React from "react";
 import "./index.css";
-import Experience from "@/app/components/Experience";
-import Projects from "@/app/components/Projects";
-import { ThemeProvider } from "@/app/components/theme-provider";
-import HomeAbout from "@/app/components/HomeAbout";
+import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
+import { ThemeProvider } from "@/components/theme-provider";
+import HomeAbout from "@/components/HomeAbout";
 
 export default function Index() {
   return (
