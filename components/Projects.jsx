@@ -9,6 +9,20 @@ export default function Projects() {
         <hr className="h-px mt-1 mb-5 bg-zinc-700 border-0" />
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-2.5">
           <Link
+            href="https://faithjobs.work"
+            className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between"
+          >
+            <div>
+              <p className="text-zinc-200 text-xl font-semibold">
+                Faithjobs.work
+              </p>
+              <hr className="h-px mt-1 mb-1 bg-zinc-700 border-0" />
+              <p className="text-zinc-200 text-sm">
+                A job board for faith-based organizations.
+              </p>
+            </div>
+          </Link>
+          <Link
             href="https://www.penpalai.xyz/"
             className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between"
           >
@@ -43,20 +57,6 @@ export default function Projects() {
               <hr className="h-px mt-1 mb-1 bg-zinc-700 border-0" />
               <p className="text-zinc-200 text-sm">
                 A web dev agency built on a low monthly-subscription model.
-              </p>
-            </div>
-          </Link>
-          <Link
-            href="https://faithjobs.work"
-            className="border border-zinc-700 rounded-xl my-auto p-5 h-full flex flex-col justify-between"
-          >
-            <div>
-              <p className="text-zinc-200 text-xl font-semibold">
-                Faithjobs.work
-              </p>
-              <hr className="h-px mt-1 mb-1 bg-zinc-700 border-0" />
-              <p className="text-zinc-200 text-sm">
-                A job board for faith-based organizations.
               </p>
             </div>
           </Link>
