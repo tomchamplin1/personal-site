@@ -13,15 +13,15 @@ export default function HomeAbout() {
             alt="Tom Champlin"
           />
           <h1 className="text-2xl xl:text-4xl font-bold text-zinc-200 my-auto ml-3 xl:ml-5">
-            Hey! I'm Tom Champlin.
+            Hey! I&apos;m Tom Champlin.
           </h1>
         </div>
         <p className="text-lg pt-12">
-          I'm a sales rep turned full-stack engineer.
+          I&apos;m a sales rep turned full-stack engineer.
         </p>
         <p className="text-lg pt-3">
-          I currently work as an Implementation Engineer at Epicor. I'm also
-          working on{" "}
+          I currently work as an Implementation Engineer at Epicor. I&apos;m
+          also working on{" "}
           <a href="https://faithjobs.work" className="font-bold">
             Faithjobs.work
           </a>
@@ -40,8 +40,8 @@ export default function HomeAbout() {
           , and other projects.
         </p>
         <p className="text-lg pt-3">
-          I love connecting with other devs, and anyone in tech. I'd love to
-          help out with a project you're working on, answer any questions, or
+          I love connecting with other devs, and anyone in tech. Id love to help
+          out with a project you&apos;re working on, answer any questions, or
           just chat.
         </p>
       </div>
