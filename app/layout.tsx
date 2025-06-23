@@ -48,9 +48,9 @@ export default function RootLayout({ children }) {
           <div className="relative flex min-h-screen flex-col">
             {/* <Navbar /> */}
             <div className="flex-1">{children}</div>
+            <Analytics />
           </div>
         </ThemeProvider>
-        <Analytics />
       </body>
     </html>
   );
