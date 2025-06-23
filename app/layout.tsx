@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import { Inter } from "next/font/google";
 import clsx from "clsx";
 import { twMerge } from "tailwind-merge";
+import { Analytics } from "@vercel/analytics/next";
 
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
             <div className="flex-1">{children}</div>
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
