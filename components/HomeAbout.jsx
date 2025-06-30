@@ -20,8 +20,8 @@ export default function HomeAbout() {
           I&apos;m a sales rep turned full-stack engineer.
         </p>
         <p className="text-lg pt-3">
-          I'm currently a Solutions Developer at Epicor. I&apos;m also working
-          on{" "}
+          I&apos;m currently a Solutions Developer at Epicor. I&apos;m also
+          working on{" "}
           <a href="https://faithjobs.work" className="font-bold">
             Faithjobs.work
           </a>
